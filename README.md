@@ -17,6 +17,7 @@ A professional mini application for managing your job search.
 ## Project Structure
 
 JobTrack/
+
 │
 ├── app.py
 ├── database.py
@@ -25,12 +26,16 @@ JobTrack/
 ├── .env
 ├── .gitignore
 │
+
+
 ├── pages/
 │   ├── 1_Companies.py
 │   ├── 2_Applications.py
 │   ├── 3_Interviews.py
 │   └── 4_Analytics.py
 │
+
+
 └── utils/
     ├── __init__.py
     └── queries.py
@@ -38,7 +43,9 @@ JobTrack/
 ## Create SQL Database
 
 CREATE DATABASE JobTrackDB;
+
 SHOW DATABASES;
+
 USE JobTrackDB;
 
 ## Create Python environment
@@ -68,9 +75,13 @@ Replace: 'your_mysql_password' with the password you created for MySQL.
 Add all this:
 
 jobtrack/
+
 .env
+
 __pycache__/
+
 *.pyc
+
 .streamlit/
 
 This prevents your password and virtual environment from being uploaded to GitHub.
@@ -84,6 +95,7 @@ You can verify through MySQL Workbench.
 Run:
 
 USE JobTrackDB;
+
 SHOW TABLES;
 
 ## Run the application
