@@ -52,9 +52,13 @@ Activate it: jobtrack\Scripts\activate
 ## Create .env file to add the secret credential
 
 DB_USER=root
+
 DB_PASSWORD=your_mysql_password
+
 DB_HOST=localhost
+
 DB_PORT=3306
+
 DB_NAME=JobTrackDB
 
 Replace: 'your_mysql_password' with the password you created for MySQL.
